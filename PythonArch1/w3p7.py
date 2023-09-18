@@ -1,0 +1,12 @@
+test = "True"
+print("True +", test, "= True")
+test = "False"
+print("True +", test, "= False")
+print(test, "+ True = False")
+print("False +", test, "= False")
+test = "True"
+print("True +", test, "= True")
+print(test, "+ True = True")
+print("False +", test, "= True")
+test = "False"
+print("False +", test, "= False")    
